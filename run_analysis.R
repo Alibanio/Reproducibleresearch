@@ -1,4 +1,4 @@
-```{r}
+
 library(plyr) 
 library(dplyr) #Use for manipulating the data
 
@@ -61,4 +61,3 @@ a = NULL
 a <- ls()
 a <- a[which(a!="TidyData" & a!="Xtest" & a!="Xtrain")]
 rm(list = a)
-```
